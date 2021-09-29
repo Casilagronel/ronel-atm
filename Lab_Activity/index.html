@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="external.css">
+	<title>Teller Machine</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+	<style type="text/css">
+		.div{
+			height: 100px;
+			background-color: #999999;
+			color: #dddddd;
+			font-family: Times new roman;
+			font-size: 30px;
+		}
+		.po{
+	text-align:center;
+	margin: 10px;
+		}
+		.button{
+	text-align: right;
+	margin: 100px;
+	float: right;
+	overflow: hidden;
+
+		}
+		.Nbutton{
+	margin: 10px;
+	float: inherit;
+	
+		}
+		.Ubutton{
+	margin: 10px;
+	float: inherit;
+	
+		}
+		.Mbutton{
+	margin: 10px;
+	float: inherit;
+	
+		}
+		.sidebox{
+	float: left;
+	height: 450px;
+	width: 150px;
+	background-color: white;
+	margin: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="div">	
+			<h1 class="po">AUTOMATED TELLER MACHINE</h1>
+		</div>
+		<br>
+		
+		Maximum Deposit: <input>
+
+		<div class="sidebox">
+			<button style="width: 150px; height: 80px;">WITHDRAW</button>
+			<button style="width: 150px; height: 80px">BALANCE</button><br>
+			<button style="width: 150px; height: 80px">DEPOSIT</button><br>
+			<button style="width: 150px; height: 90px">TRANSFER</button><br>		
+		</div>
+		<div class="Nbutton">
+			<button style="width: 140px; height: 80px">1</button>
+			<button style="width: 140px; height: 80px">2</button>
+			<button style="width: 140px; height: 80px">3</button>
+		</div>
+		<div class="Ubutton">
+			<button style="width: 140px; height: 80px">4</button>
+			<button style="width: 140px; height: 80px">5</button>
+			<button style="width: 140px; height: 80px">6</button>
+		</div>
+		<div class="Mbutton">
+			<button style="width: 140px; height: 80px">7</button>
+			<button style="width: 140px; height: 80px">8</button>
+			<button style="width: 140px; height: 80px">9</button>
+		</div>
+		<div class="Mbutton">
+			<button style="width: 140px; height: 80px">0</button>
+			<button style="width: 140px; height: 80px">Del</button>
+			<button style="width: 140px; height: 80px">Enter</button>	
+		</div>
+		<div ng-controller="multiply" ng-init="num=0">
+	 Amount <input ng-model="num"> 
+	</div><br>
+	
+</body>
+</html>

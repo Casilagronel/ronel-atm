@@ -1,0 +1,34 @@
+.po{
+	text-align:center;
+	margin: 10px;
+}
+.button{
+	text-align: right;
+	margin: 100px;
+	float: right;
+	overflow: hidden;
+
+}
+.Nbutton{
+	margin: 10px;
+	float: inherit;
+	
+}
+.Ubutton{
+	margin: 10px;
+	float: inherit;
+	
+}
+.Mbutton{
+	margin: 10px;
+	float: inherit;
+	
+}
+.sidebox{
+	float: left;
+	height: 450px;
+	width: 150px;
+	background-color: white;
+	margin: 20px;
+}
+
